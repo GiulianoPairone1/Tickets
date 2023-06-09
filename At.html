@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Campos dentro de checkboxes (JavaScript)</title>
+</head>
+<body>
+  <br>
+  <h3>Equipo asociado: XXXXXXXX</h3><button>Retirar equipo</button>
+  <br>
+  <br>
+  Foto del Problema
+  <br> 
+  <textarea name="comentarios" rows="10" cols="40"></textarea>
+  <br>
+  <br>
+  <p>Seleccione la tarea realizada: </p>
+  <label for="checkbox1">
+    <input type="checkbox" id="checkbox1" onchange="mostrarCampos(1)">
+    Redrop
+  </label>
+
+  <div id="camposContainer1"></div>
+
+  <label for="checkbox2">
+    <input type="checkbox" id="checkbox2" onchange="mostrarCampos(2)">
+    Conectores
+  </label>
+
+  <div id="camposContainer2"></div>
+
+  <label for="checkbox3">
+    <input type="checkbox" id="checkbox3" onchange="mostrarCampos(3)">
+    ONU
+  </label>
+
+  <div id="camposContainer3"></div>
+
+  <label for="checkbox4">
+    <input type="checkbox" id="checkbox4" onchange="mostrarCampos(4)">
+    Configuracion de router
+  </label>
+
+  <div id="camposContainer4"></div>
+
+  <label for="checkbox5">
+    <input type="checkbox" id="checkbox5" onchange="mostrarCampos(5)">
+    Problema en Caja
+  </label>
+  <div id="camposContainer5"></div>
+
+  <a href="Router.html"><button>Continuar</button></a>
+
+  <script src="Java/Index.js" ></script>
+</body>
+</html>
