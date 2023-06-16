@@ -27,7 +27,8 @@ function toggleSelect() {
     checkbox3: ["Motivo","Seleccione equipo"],
     checkbox4: ["Marca del router", "Se habilito el puerto 8080", "Contrasenia Remota"],
     checkbox5: ["Caja", "Puerto", "Precinto"],
-    checkbox6:["Retiro Transformador?","Conectores reutilizables?","Se libero puerto?"]
+    checkbox6:["Retiro Transformador?","Conectores reutilizables?","Se libero puerto?"],
+    checkbox7:["","","","",""]
   };
   function mostrarCampos(checkboxId) {
     var checkbox = document.getElementById("checkbox" + checkboxId);
