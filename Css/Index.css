@@ -16,7 +16,7 @@ body{
 /*--------------Nav---------------------*/
 header {
     background: rgba(0,0,0,0.7);
-    width:35%;
+    width:40%;
     position: fixed;
     z-index: 100;
 }

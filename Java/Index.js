@@ -22,13 +22,21 @@ function toggleSelect() {
   }
 
   var camposPorCheckbox = {
-    checkbox1: ["Motivo", "SSID", "Puerto","Precinto","Metraje"],
+    checkbox1: ["Motivo","Metraje"],
     checkbox2: ["Motivo", "Donde se realizo el cambio", "Con cuantos probo","Fue por culpa del cliente?"],
     checkbox3: ["Motivo","Seleccione equipo"],
     checkbox4: ["Marca del router", "Se habilito el puerto 8080", "Contrasenia Remota"],
-    checkbox5: ["Caja", "Puerto", "Precinto"],
-    checkbox6:["Retiro Transformador?","Conectores reutilizables?","Se libero puerto?"],
-    checkbox7:["Cuantos uso?"]
+    checkbox5: ["Caja"],
+    checkbox6: ["Retiro Transformador?","Conectores reutilizables?","Se libero puerto?"],
+    checkbox7: ["Cuantos uso?"],
+    checkbox8: ["Retiro Transformador","UTP Reutilizable?","Retiro Caño?"],
+    checkbox9: ["Motivo","Metraje utilizado"],
+    checkbox10:["Detalle lo realizado"],
+    checkbox11:["Motivo","Donde Realizo el cambio","Con cuantos Probo"],
+    checkbox12:["Motivo","Seleccionar Equipo","SSID"],
+    checkbox13:["Marca del router","Se habilito el puerto 8080","Contrasenia Remota"],
+    checkbox14:["Motivo","Cuantos Agregado","Metros"],
+    checkbox15:["Indique lo realizado"],
   };
   function mostrarCampos(checkboxId) {
     var checkbox = document.getElementById("checkbox" + checkboxId);
