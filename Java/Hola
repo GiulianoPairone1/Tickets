@@ -1,0 +1,22 @@
+Mudan parte label
+
+<label>
+    Mudanza Fo
+    <br><br>        
+    Seleecione equipo
+    <textarea id="seleecionar">MAC</textarea>
+    <textarea id="seleecionar">SSID</textarea>
+    <textarea id="seleecionar">Puerto</textarea>
+    <textarea id="seleecionar">Precinto</textarea>
+    <br>
+    Reutilizo Conectores
+    <textarea id="seleecionar" >CHECK Si/NO</textarea>
+    <label for="checkbox7">
+        <input type="checkbox" id="checkbox7" onchange="mostrarCampos(7)">
+        Utilizo conectores nuevos?
+    </label>
+    <div id="camposContainer7"></div>
+    <br>
+    Metraje utilizado
+    <textarea id="seleecionar">Metros</textarea>
+</label>

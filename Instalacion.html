@@ -6,27 +6,23 @@
     <title>Instalacion</title>
     <link rel="stylesheet" href="Css/Index.css">
 </head>
-<body>
-
-    <label>
-        <br><br><br><br><br><br><br><br>
-        Seleecione Equipo
-        <textarea id="seleecionar">Equipo</textarea>
-        <textarea id="seleecionar">SSID</textarea>
-        <br><br>
-        Puerto
-        <textarea id="seleecionar">Numero</textarea>
-        Precinto
-        <textarea id="seleecionar">Precinto</textarea>
-        <br><br>
-        Conectores
-        <textarea id="seleecionar">Cuantos uso?</textarea>
-        Metraje
-        <textarea id="seleecionar">Metros</textarea>
+<body>       
+    <br><br><br><br><br><br><br><br>
+    <h3>------------------------------------------------------------------</h3>
+    <label for="checkbox16">
+        <input type="checkbox" id="checkbox16" onchange="mostrarCampos(16)">
+        Instalacion FO
     </label>
-    <br><br><br><br>
+    <div id="camposContainer16"></div>
+    <h3>------------------------------------------------------------------</h3>
+    <label>
+        <input type="checkbox" id="checkbox17" onchange="mostrarCampos(17)">
+        Instalacion WL
+    </label>
+    <div id="camposContainer17"></div>       
+    <h3>------------------------------------------------------------------</h3>
+    <a href="Main.html"><button>Regresar</button></a>
     <a href="Router.html"><button>Continuar</button></a>
-
     <script src="Java/Index.js" ></script>
 </body>
 </html>

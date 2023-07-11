@@ -13,6 +13,9 @@ body{
     height: 20px;
     width: 90px;
 }
+li {
+    list-style: none;
+}
 /*--------------Nav---------------------*/
 header {
     background: rgba(0,0,0,0.7);
@@ -50,3 +53,16 @@ button
     background-color: lightgreen;
 }
 
+label
+{
+    display: inline-block;
+    width: 55px;
+    white-space: nowrap;
+    align-items: end;
+}
+ul
+{
+    display: inline-block;
+    width: 600px;
+    white-space: nowrap;
+}

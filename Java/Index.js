@@ -37,6 +37,9 @@ function toggleSelect() {
     checkbox13:["Marca del router","Se habilito el puerto 8080","Contrasenia Remota"],
     checkbox14:["Motivo","Cuantos Agregado","Metros"],
     checkbox15:["Indique lo realizado"],
+    checkbox16:["Equipo","SSID","Puerto","Preceinto","Cuantos conectores uso?","Metraje","OTRO"],
+    checkbox17:["Equipo","SSID","Cuantos caños coloco?","Metraje","OTRO"],
+    checkbox18:["Cuantos uso?"],
   };
   function mostrarCampos(checkboxId) {
     var checkbox = document.getElementById("checkbox" + checkboxId);
