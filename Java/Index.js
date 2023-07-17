@@ -63,3 +63,20 @@ function toggleSelect() {
       }
     }
   }
+
+/*CALCULAR COSTOS */
+function calcularSuma() {
+  var checkboxes = document.getElementsByName('valor'); // Obtener todos los checkboxes por el nombre
+  var suma = 0;
+
+  for (var i = 0; i < checkboxes.length; i++) {
+    if (checkboxes[i].checked) { // Verificar si el checkbox está seleccionado
+      suma += parseInt(checkboxes[i].value); // Sumar el valor del checkbox seleccionado
+    }
+  }
+
+  var cantidad = document.getElementById('cantidad').value; // Obtener la cantidad
+  suma += parseInt(cantidad) * 350; // Aumentar la suma por la cantidad (valor fijo de 10)
+
+  document.getElementById('resultado').textContent = suma; // Mostrar la suma en el elemento con el ID 'resultado'
+}

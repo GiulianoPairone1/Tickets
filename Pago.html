@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pago</title>
+    <link rel="stylesheet" href="Css/Index.css">
+</head>
+<body>
+    <h1>Suma de valores checkbox</h1>
+    <input type="checkbox" name="valor" value="750" onchange="calcularSuma()"> CAmbio de conector<br>
+    <input type="checkbox" name="valor" value="1000" onchange="calcularSuma()"> Configuracion de router<br>
+    <input type="checkbox" name="valor" value="2000" onchange="calcularSuma()"> Mudanza interna<br>
+    <input type="checkbox" name="valor" value="150" onchange="calcularSuma()"> Ficha rj 45<br>
+    <br>
+    <label for="cantidad">Cableado utp:   </label>
+    <br>
+    <input type="number" id="cantidad" value="0" onchange="calcularSuma()">
+    <br>
+    <h3>Resultado:</h3>
+    <p id="resultado">0</p>
+    <script src="Java/Index.js" ></script>
+</body>
+</html>
